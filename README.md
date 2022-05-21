@@ -1,26 +1,11 @@
 # DatabaseManagerTool_For_Android
- DatabaseManagerTool_For_Android
 
- 
+
 
 Managing Android apps' SQLite databases is tough while developing. You cannot view the tables, you don't know what is getting inserted into the tables and you can't update the data and see how your application responds to it.
 
-What if you had a database manager like oracle sqldevelopr, mysql work bench for your application's SQLite database? This library gives you that.
-
-With this library you can manage the database of your android app from the app itself. 
-
-You can view, insert, delete, update the tables of your app's SQLite database from your app.
-
-Then entire library is written into a single Activity class so you just need to add this Activity to your Android app.
-
-This is how it looks - watch this 1 minute video for demo : http://youtu.be/P5vpaGoBlBY?t=3m40s
-
 Setup:
 ======
-
-Setup takes hardly 3 minutes. Just follow the four simple steps below: 
-
-You can watch 3 mins demonstration video here : http://youtu.be/P5vpaGoBlBY where I setup this library for my app.
 
 	
 1) Clone or download this repository and add AndroidDatabaseManager.java file to your application.
