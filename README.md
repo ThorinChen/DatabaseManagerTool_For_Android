@@ -1,6 +1,7 @@
 # DatabaseManagerTool_For_Android
  DatabaseManagerTool_For_Android
 
+ 
 
 Managing Android apps' SQLite databases is tough while developing. You cannot view the tables, you don't know what is getting inserted into the tables and you can't update the data and see how your application responds to it.
 
