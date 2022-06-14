@@ -76,23 +76,23 @@ public class AndroidDatabaseManagerTool extends Activity implements OnItemClickL
 		mainscrollview = new ScrollView(AndroidDatabaseManager.this);
 		
 		//the main linear layout to which all tables spinners etc will be added.In this activity every element is created dynamically  to avoid using xml file
-		 mainLayout = new LinearLayout(AndroidDatabaseManager.this);
-		 mainLayout.setOrientation(LinearLayout.VERTICAL);
-		 mainLayout.setBackgroundColor(Color.WHITE);
-		 mainLayout.setScrollContainer(true);
+		mainLayout = new LinearLayout(AndroidDatabaseManager.this);
+		mainLayout.setOrientation(LinearLayout.VERTICAL);
+		mainLayout.setBackgroundColor(Color.WHITE);
+		mainLayout.setScrollContainer(true);
 		mainscrollview.addView(mainLayout);
 		
 		//all required layouts are created dynamically and added to the main scrollview
 		setContentView(mainscrollview);
 		
-                //the first row of layout which has a text view and spinner
+        //the first row of layout which has a text view and spinner
 		final LinearLayout firstrow = new LinearLayout(AndroidDatabaseManager.this);
 		firstrow.setPadding(0,10,0,20);
 		LinearLayout.LayoutParams firstrowlp = new LinearLayout.LayoutParams(0, 150);
 		firstrowlp.weight = 1;
 
 		TextView maintext = new TextView(AndroidDatabaseManager.this);
-		maintext.setText("Select Table");
+		maintext.setText("Select Table Style");
 		maintext.setTextSize(22);
 		maintext.setLayoutParams(firstrowlp);
 		select_table=new Spinner(AndroidDatabaseManager.this);
